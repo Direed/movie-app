@@ -1,0 +1,59 @@
+.container {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: linear-gradient(to bottom, #000000 80%, #29292c);
+    color: white;
+    gap: 16px;
+}
+
+.moviePlayer {
+    position: relative;
+    height: 60%;
+    width: 100%;
+}
+
+.moviePlayer iframe {
+    position: relative;
+    z-index: 3;
+}
+
+.closeIcon {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    z-index: 5;
+}
+
+.information {
+    display: flex;
+    gap: 16px;
+    padding: 0 64px;
+}
+
+.synopsis {
+    max-width: 50%;
+    width: 100%;
+    font-size: 18px;
+}
+
+.additionalInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-left: auto;
+}
+
+.additionalInfo p {
+
+}
+
+.additionalInfo span:hover {
+    text-decoration: white underline;
+    cursor: pointer;
+}

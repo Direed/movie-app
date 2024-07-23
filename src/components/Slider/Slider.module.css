@@ -1,0 +1,68 @@
+.container {
+    display: flex;
+    max-width: calc(round(down, (100vw - 210px) / 330, 1px) * 330);
+    width: 100%;
+    height: 200px;
+    flex-direction: column;
+    gap: 16px;
+    cursor: pointer;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    margin: 0;
+    color: white;
+}
+
+.pagination {
+    display: flex;
+    gap: 4px;
+}
+
+.paginationItem {
+    width: 14px;
+    height: 4px;
+    border-radius: 4px;
+}
+
+.slide {
+
+}
+
+swiper-container {
+    width: 100%;
+}
+
+swiper-slide {
+    width: 300px !important;
+}
+
+swiper-container::part(button-prev) {
+    top: 70px;
+    fill: white;
+    stroke: white;
+}
+
+swiper-container::part(button-next) {
+    top: 70px;
+    fill: white;
+    stroke: white;
+}
+
+swiper-container::part(pagination) {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: auto !important;
+    left: auto !important;
+    margin: 0;
+}
+
+swiper-container::part(bullet) {
+    background: red;
+}

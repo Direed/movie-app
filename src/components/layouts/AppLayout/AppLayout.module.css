@@ -1,0 +1,19 @@
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.sidebar {
+    background-color: #2f343d;
+}
+
+.menu ul {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo path, circle {
+    stroke: red;
+    fill: red;
+}
